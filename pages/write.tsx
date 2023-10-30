@@ -1,11 +1,8 @@
 import ErrorBoundary from '../components/ErrorBoundary';
-import User from '../models/user';
 import { useEffect, useState } from 'react';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
 import { Note } from '@geist-ui/core';
-import { NextPageContext } from 'next';
-import jwt from 'jsonwebtoken';
 
 export default function () {
   const [input, setInput] = useState<string>('');
@@ -68,7 +65,7 @@ export default function () {
               <p
                 className="text-white lg:text-xl
              font-extrabold opacity-80">
-                Yuanlin Lin 林沅霖
+                Ken Hsu 許正坤
               </p>
               <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
                 {new Date().toISOString().split('T')[0]}

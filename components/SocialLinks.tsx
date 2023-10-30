@@ -8,7 +8,7 @@ interface Props {
 function SocialLinks(props: Props) {
   return <div className="flex lg:mt-4 opacity-70 items-center">
     <a
-      href="https://portfolio.yuanlin.dev"
+      href="https://kenhsu-portfolio.zeabur.app"
       target="_blank"
       rel="noreferrer">
       <Globe
@@ -17,35 +17,35 @@ function SocialLinks(props: Props) {
         color={props.color}/>
     </a>
     <a
-      href="https://github.com/yuaanlin"
+      href="https://github.com/djpken"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
       <GitHub size={18} color={props.color}/>
     </a>
     <a
-      href="https://www.linkedin.com/in/yuanlinlin"
+      href="https://www.linkedin.com/in/ken-hsu-portfolio"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
       <Linkedin size={18} color={props.color}/>
     </a>
     <a
-      href="https://www.instagram.com/yuaanlin/"
+      href="https://www.instagram.com/kunkun_laa/"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
       <Instagram size={18} color={props.color}/>
     </a>
     <a
-      href="https://www.facebook.com/yuaanlin"
+      href="https://www.facebook.com/djpkendjpken"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">
       <Facebook size={18} color={props.color}/>
     </a>
     <a
-      href="https://line.me/ti/p/mpo9ZLZb3t"
+      href="https://line.me/ti/p/6i4El5f_dH"
       className="ml-4 transition hover:text-zinc-500"
       target="_blank"
       rel="noreferrer">

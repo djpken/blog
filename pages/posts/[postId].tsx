@@ -127,7 +127,7 @@ export default function (props: PageProps) {
     <div>
       <PageHead
         canonicalUrl={`https://yuanlin.dev/posts/${post.slug}`}
-        title={(post ? post.title : 'Blog') + '| Yuanlin Lin 林沅霖'}
+        title={(post ? post.title : 'Blog') + '| Ken Hsu 許正坤'}
         type="article"
         imageUrl={`/og_image/${post.slug}`}
         description={post?.content.substring(0, 100) + '...'}
@@ -145,7 +145,7 @@ export default function (props: PageProps) {
               className={cx(
                 'mr-2 z-50 transition duration-1000', shouldHideWhiteLogo
                   ? 'text-black' : 'text-white')}>
-              Yuanlin Lin
+              Ken Hsu
             </p>
             <p className="text-lg text-[#c9ada7]">Blog</p>
           </div>
@@ -177,13 +177,13 @@ export default function (props: PageProps) {
           {!post ? <AuthorSkeleton/> : <div
             className="flex flex-row align-bottom mt-4">
             <img
-              src="https://avatars.githubusercontent.com/u/21105863"
+              src="https://avatars.githubusercontent.com/u/119805086?v=4"
               className="rounded-full h-8 w-8 mr-4"
               alt=""/>
             <p
               className="text-white lg:text-xl
              font-extrabold opacity-80">
-              Yuanlin Lin 林沅霖
+              Ken Hsu 許正坤
             </p>
             <p className="text-white lg:text-xl ml-2 lg:ml-8 opacity-60">
               {new Date(post?.createdAt).toISOString().split('T')[0]}
@@ -290,7 +290,7 @@ export default function (props: PageProps) {
         <div className="w-full lg:w-[650px] px-4 mx-auto">
           <div className="flex items-center mt-12 flex-col md:flex-row">
             <img
-              src="https://avatars.githubusercontent.com/u/21105863?v=4"
+              src="https://avatars.githubusercontent.com/u/119805086?v=4"
               alt="author-avatar"
               className="w-24 h-24 rounded-full"
             />
@@ -303,12 +303,12 @@ export default function (props: PageProps) {
               <p
                 className="font-extrabold text-2xl
               text-center md:text-left">
-                Yuanlin Lin 林沅霖
+                Ken Hsu 許正坤
               </p>
               <p
                 className="mt-6 mb-12 opacity-70
               text-center md:text-left">
-                台灣桃園人，目前就讀浙江大學，主修計算機科學與技術，同時兼職外包全端開發工程師，熱愛產品設計與軟體開發。
+                台灣台北人，擔任全端開發工程師。
               </p>
               <div className="flex justify-center md:justify-start">
                 <SocialLinks/>

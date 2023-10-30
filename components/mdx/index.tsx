@@ -17,7 +17,7 @@ function Snippet(props: any) {
   />;
 }
 
-function code({
+function Code({
   className,
   ...props
 }: any) {
@@ -32,12 +32,12 @@ const mdxComponents = {
   Tree,
   SelectQuestion,
   Snippet,
-  ol: (props: any) => <ol
+  Ol: (props: any) => <ol
     className="mdx-rendered list-decimal ml-8"
     {...props}>{props.children}</ol>,
-  pre: (props: any) => <pre className="mdx-rendered" {...props} />,
-  code,
-  img: (props: any) => {
+  Pre: (props: any) => <pre className="mdx-rendered" {...props} />,
+  Code,
+  Img: (props: any) => {
     const [isLoaded, setLoaded] = useState(false);
     useEffect(() => {
       setLoaded(true);

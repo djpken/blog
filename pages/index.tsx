@@ -29,7 +29,7 @@ export default function (props: { posts: Post[] }) {
 
   return (
     <div className="min-h-screen">
-      <PageHead canonicalUrl="https://yuanlin.dev"/>
+      <PageHead canonicalUrl="https://kenhsu.zeabur.app"/>
       <div
         className="container 2xl:px-32 px-6 lg:px-12 mx-auto flex
        flex-row py-8 lg:pb-24 flex-wrap">
@@ -38,7 +38,7 @@ export default function (props: { posts: Post[] }) {
             <div
               className="font-extrabold text-xl lg:text-3xl mb-4 lg:mb-0
         cursor-pointer flex flex-row lg:flex-col items-baseline">
-              <p className="mr-2">Yuanlin Lin</p>
+              <p className="mr-2">Ken Hsu</p>
               <p className="text-lg text-[#c9ada7]">Blog</p>
             </div>
           </Link>
@@ -103,15 +103,15 @@ export default function (props: { posts: Post[] }) {
         text-xs mt-8 lg:mt-24 flex-wrap"
         >
           <div className="flex w-full lg:w-auto justify-center">
-            <p>這個部落格是使用</p>
-            <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+            <p>這個部落格Source Code由</p>
+            <a href="https://github.com/yuaanlin/yuanlin.dev/" target="_blank" rel="noreferrer">
               <img
-                src="/nextjs.svg"
-                alt="next.js"
+                src="/blog-source-code.svg"
+                alt="blog-source-code"
                 className="h-4 mx-2 inline mb-1"
               />
             </a>
-            <p>框架開發，</p>
+            <p>修改，</p>
           </div>
           <div className="flex w-full lg:w-auto justify-center mt-6 lg:mt-0">
             <p>並且自動部署於</p>

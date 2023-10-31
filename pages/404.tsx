@@ -12,7 +12,7 @@ export default function () {
             <div
               className="font-extrabold text-xl lg:text-3xl mb-4 lg:mb-0
         cursor-pointer flex flex-row lg:flex-col items-baseline">
-              <p className="mr-2">Yuanlin Lin</p>
+              <p className="mr-2">Ken Hsu</p>
               <p className="text-lg text-[#c9ada7]">Blog</p>
             </div>
           </Link>

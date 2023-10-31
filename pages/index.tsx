@@ -99,7 +99,7 @@ export default function (props: { posts: Post[] }) {
         </div>
 
         <div
-          className="w-full flex justify-center items-center
+          className="w-full flex justify-center
         text-xs mt-8 lg:mt-24 flex-wrap"
         >
           <div className="flex w-full lg:w-auto justify-center">
@@ -108,7 +108,7 @@ export default function (props: { posts: Post[] }) {
               <img
                 src="/blog-source-code.svg"
                 alt="blog-source-code"
-                className="h-4 mx-2 inline mb-1"
+                className="h-5 mx-2 inline mb-1"
               />
             </a>
             <p>修改，</p>

@@ -1,7 +1,7 @@
 import Post from '../models/post';
 import { MongoClient } from 'mongodb';
 
-const uri = "mongodb://mongo:d2VBboS8etvXnw1J74RlNQ9a603YM5Zz@hkg1.clusters.zeabur.com:31319/";
+const uri = process.env['MONGODB_URI_EXTERNAL'];
 
 
 export async function getPostsInMongo(): Promise<Post[]> {

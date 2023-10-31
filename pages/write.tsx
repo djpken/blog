@@ -59,7 +59,7 @@ export default function () {
             <div
               className="flex flex-row align-bottom mt-4">
               <img
-                src="https://avatars.githubusercontent.com/u/21105863"
+                src="https://avatars.githubusercontent.com/u/119805086?v=4"
                 className="rounded-full h-8 w-8 mr-4"
                 alt="" />
               <p

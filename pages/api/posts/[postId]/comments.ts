@@ -21,9 +21,10 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
         res.status(401).json({ error: 'Unauthorized' });
         return;
       }
+      const userObjectId = new ObjectId(user._id);
       try {
         await mongo.db('blog').collection('comments').insertOne({
-          userId: user._id,
+          userId: userObjectId,
           postId: postObjectId,
           createdAt: new Date(),
           content: req.body.content,

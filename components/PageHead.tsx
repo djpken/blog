@@ -27,7 +27,9 @@ function PageHead(props: Props) {
       } />
     <meta
       name="keywords"
-      content={props.keywords?.join(', ') || 'React, Javascript, Typescript, 網站開發, 軟體開發, 前端, 後端, Go, Golang, Blog, 部落格, Ken,Ken Hsu,Hsu,許正坤, html, css'} />
+      content={props.keywords?.join(', ') ||
+          'React, Javascript, Typescript, 網站開發, 軟體開發, 前端, 後端, Go, Golang,' +
+          ' Blog, 部落格, Ken,Ken Hsu,Hsu,許正坤, html, css'} />
     <meta name="author" content="Ken Hsu 許正坤" />
     <meta property="og:type" content={props.type || 'website'} key="type" />
     <meta

@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import SocialLinks from '../components/SocialLinks';
+import Link from 'next/link';
 
 export default function () {
   return (
@@ -16,12 +16,14 @@ export default function () {
               <p className="text-lg text-[#c9ada7]">Blog</p>
             </div>
           </Link>
-          <SocialLinks />
+          <SocialLinks/>
         </div>
         <div className="w-full my-16">
           <h1 className="font-extrabold text-5xl">出事了阿伯！</h1>
           <p className="text-lg mt-12 mb-2 font-bold">你找到了一個不存在的頁面 ...</p>
-          <p className="opacity-50 font-bold">You found a page which is not available now ...</p>
+          <p className="opacity-50 font-bold">
+            You found a page which is not available now ...
+          </p>
           <div className="mt-32">
             <p>可以的話，請告訴我你從哪裡發現這個頁面的，讓我可以修復這個問題 🙏</p>
           </div>

@@ -13,7 +13,9 @@ export default function () {
     (async () => {
       try {
         if (input !== '') window.localStorage.setItem('note', input);
-        setMdxSource(await serialize(input));
+        setMdxSource(await serialize(input,{mdxOptions:{
+          development: process.env.NODE_ENV === 'development',
+          }}));
         setError(undefined);
       } catch (err: any) {
         setError(err.message);

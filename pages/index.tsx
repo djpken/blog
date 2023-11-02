@@ -4,7 +4,6 @@ import PageHead from '../components/PageHead';
 import SocialLinks from '../components/SocialLinks';
 import { getPostsInMongo } from '../services/getPosts';
 import { GOOGLE_OAUTH_CLIENT_ID } from '../config.client';
-import ChiefNoobLogo from '../public/chiefnoob.png';
 import Link from 'next/link';
 import cx from 'classnames';
 import { GetStaticProps } from 'next';
@@ -20,12 +19,6 @@ export default function (props: { posts: Post[] }) {
     data: post,
     key: post.slug,
   }));
-
-  // Inject ChiefNoob Ad Card
-  cards.splice(2, 0, {
-    type: 'ChiefNoob',
-    key: 'chiefnoob'
-  });
 
   return (
     <div className="min-h-screen">

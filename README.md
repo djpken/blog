@@ -1,6 +1,7 @@
-# yuanlin.dev
+# Blog
 
-This is my blog (https://yuanlin.dev/). Built with following cool technologies:
+This is my blog source code written by (https://yuanlin.dev/). 
+Built with following cool technologies:
 
 ![](https://skillicons.dev/icons?i=ts,next,tailwind,mongodb)
 
